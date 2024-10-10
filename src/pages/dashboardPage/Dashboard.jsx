@@ -1,10 +1,15 @@
+import Sidebar from '../../components/sidebar/Sidebar';
+import Home from '../../components/home/Home';
+import Header from '../../components/header/Header';
 import './dashboard.css';
 
 const Dashboard = () => {
   return (
-    <div>
-      <h1>Dashboard</h1>
-    </div>
+    <main className='dashboard-section'>
+      <Header />
+      <Sidebar />
+      <Home />
+    </main>
   );
 };
 
