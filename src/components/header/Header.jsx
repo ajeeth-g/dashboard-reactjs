@@ -33,7 +33,7 @@ const Header = () => {
           <div className='header-profile-image'></div>
           <div className='header-profile-details'>
             <p>Ajeeth</p>
-            <p>Web Designer</p>
+            <p>Full Stack Developer</p>
           </div>
         </div>
         <div className='header-settings-icons'>

@@ -2,8 +2,9 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1rem;
   font-size: 1.1rem;
+  background-color: #fff;
 }
 
 .header-content {
@@ -26,11 +27,18 @@
   column-gap: 0.4rem;
   margin-left: 1rem;
   position: relative;
+  cursor: pointer;
 }
 
 .header svg {
   width: 1.5rem;
   height: 1.5rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.header-button:hover svg {
+  transform: scale(1.1);
+  color: #4a8ff0;
 }
 
 .header-profile {

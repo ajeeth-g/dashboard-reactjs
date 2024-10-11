@@ -1,0 +1,83 @@
+.order-track-section {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.7rem;
+  width: 500px;
+  height: max-content;
+}
+
+.order-track-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-track-title-container > p:nth-child(2) {
+  color: rgb(22, 127, 22);
+}
+
+.order-track-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.order-track-title::before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 1.5rem;
+  border-radius: 5px;
+  background-color: rgb(217, 217, 217);
+  margin-right: 8px;
+}
+
+.order-track-profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.order-track-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+  padding: 1.5rem 0;
+  border-top: 0.7px solid #ddd;
+  border-bottom: 0.7px solid #ddd;
+}
+
+.order-track-detail {
+  display: flex;
+  column-gap: 0.8rem;
+  align-items: center;
+}
+
+.order-track-profile-image {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(217, 217, 217);
+}
+
+.order-track-profile-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+
+.order-track-profile-details > p:first-child {
+  font-weight: 500;
+}
+
+.order-track-priority {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.4rem 0.6rem;
+  border-radius: 5px;
+  background-color: #dcdcef;
+  color: #1b2572;
+}

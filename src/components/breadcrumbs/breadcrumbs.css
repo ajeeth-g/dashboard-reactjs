@@ -1,0 +1,20 @@
+.breadcrumbs-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem 1rem;
+}
+
+.breadcrumbs-navigations {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Add some space between elements */
+}
+
+.breadcrumbs-navigations span {
+  font-weight: 400;
+}
+
+.breadcrumbs-navigations .current-page {
+  font-weight: 600;
+}

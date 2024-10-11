@@ -162,3 +162,76 @@ export const headerItems = {
     type: 'iconOnly',
   },
 };
+
+export const orderData = [
+  {
+    id: 1,
+    image: 'https://via.placeholder.com/50',
+    name: 'Orange Watch Series 4',
+    dialSize: 'Dial Size: 44mm',
+    color: ' Color: Metallic Black',
+    trackingNo: 'SPK1218153635',
+    price: 1249,
+    quantity: 1,
+    totalPrice: 1249,
+  },
+  {
+    id: 2,
+    image: 'https://via.placeholder.com/50',
+    name: 'DapZem & Co Sweat Shirt',
+    dialSize: 'Dial Size: 44mm',
+    color: ' Color: Metallic Black',
+    trackingNo: 'SPK1218153635',
+    price: 499,
+    quantity: 2,
+    totalPrice: 998,
+  },
+  {
+    id: 3,
+    image: 'https://via.placeholder.com/50',
+    name: 'Denim Corporation Sweat Shirt',
+    dialSize: 'Dial Size: 44mm',
+    color: ' Color: Metallic Black',
+    trackingNo: 'SPK1218153635',
+    price: 799,
+    quantity: 1,
+    totalPrice: 799,
+  },
+];
+
+export const userDetails = [
+  {
+    name: 'Ajeeth',
+    email: 'ajeeth@gmail.com',
+    isPrimary: true,
+  },
+];
+
+export const personalDetails = [
+  {
+    title: 'Delivery Address:',
+    info: [
+      { label: 'Landmark', value: 'MIG-1-11' },
+      { label: 'Street', value: 'Monroe Street' },
+      { label: 'City', value: 'Georgertown' },
+      { label: 'State', value: 'Washington D.C' },
+      { label: 'Country', value: 'USA' },
+      { label: ' Zipcode', value: '641602' },
+    ],
+  },
+  {
+    title: 'Send Updates to:',
+    info: [
+      { label: 'Phone', value: '55551-0123-1210' },
+      { label: 'Email', value: 'ajeeth@gmail.com' },
+    ],
+  },
+  {
+    title: 'Order Summary',
+    info: [
+      { label: 'Ordered Date', value: '24, Nov 2022' },
+      { label: 'Ordered Time', value: '11:47AM' },
+      { label: 'Payment interface', value: 'UPI' },
+    ],
+  },
+];

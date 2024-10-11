@@ -1,0 +1,115 @@
+.user-section {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.7rem;
+  width: 500px;
+  height: max-content;
+}
+
+.user-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.user-title::before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 1.5rem;
+  border-radius: 5px;
+  background-color: rgb(217, 217, 217);
+  margin-right: 8px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+  padding: 1.5rem 0;
+  border-top: 0.7px solid #ddd;
+  border-bottom: 0.7px solid #ddd;
+}
+
+.user-detail {
+  display: flex;
+  column-gap: 0.8rem;
+  align-items: center;
+}
+
+.user-profile-image {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(217, 217, 217);
+}
+
+.user-profile-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+
+.user-profile-details > p:first-child {
+  font-weight: 500;
+}
+
+.user-priority {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.4rem 0.6rem;
+  border-radius: 5px;
+  background-color: #dcdcef;
+  color: #1b2572;
+}
+
+.user-personal-details {
+  padding: 0 1rem 1rem;
+}
+
+.user-info-section {
+  margin-bottom: 1rem;
+}
+
+.user-info-section h3 {
+  margin: 2rem 0;
+}
+
+.user-info-content {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.9rem;
+}
+
+.info-label {
+  font-weight: bold;
+}
+
+.info-value {
+  color: #555;
+}
+
+.user-purchase-details {
+  font-size: 0.95rem;
+  padding: 1rem;
+  border-top: 0.7px solid #ddd;
+}
+
+.user-purchase-highlight {
+  color: #1b2572;
+  font-weight: 600;
+}
+
+.user-purchase-highlight:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
