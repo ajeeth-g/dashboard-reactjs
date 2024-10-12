@@ -33,7 +33,9 @@ const OrderContainer = () => {
                   <div className='item-details'>
                     <p className='item-name'>{item.name}</p>
                     <p className='item-detail'>{item.dialSize}</p>
-                    <p className='item-detail'>{item.color}</p>
+                    <div className='item-offer'>
+                    <p className='item-detail'>{item.color}</p> <span>hi</span>
+                    </div>
                   </div>
                 </td>
                 <td className='trackingNo'>{item.trackingNo}</td>

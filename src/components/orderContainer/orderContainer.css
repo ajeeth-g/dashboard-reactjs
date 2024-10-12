@@ -98,6 +98,11 @@
   font-size: 0.875rem;
 }
 
+.item-offer{
+  display: flex;
+  align-items: center;
+}
+
 .price {
   font-weight: 600;
 }
